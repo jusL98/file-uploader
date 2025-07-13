@@ -74,14 +74,9 @@ To install the File Uploader, follow these steps:
    cp .env.example .env
    ```
 
-6. Run the program.
-   ```bash
-   python main.py
-   ```
-
 ### Setup
 
-7. Open the .env file:
+6. Open the .env file:
 
    - On Windows:
 
@@ -95,7 +90,7 @@ To install the File Uploader, follow these steps:
    open .env
    ```
 
-8. Edit the environment variables to your liking:
+7. Edit the environment variables to your liking:
 
    | Variable           | Description                            | Example                      |
    | ------------------ | -------------------------------------- | ---------------------------- |
@@ -120,19 +115,20 @@ To install the File Uploader, follow these steps:
 
 ### Run
 
-9. Start the Flask application:
+8. Start the Flask application:
    ```bash
    python main.py
    ```
-10. Access the web interface:
+9. Access the web interface:
 
    - Open your web browser and navigate to: `http://localhost:5000`
    - For network access from other devices: `http://YOUR_IP_ADDRESS:5000`
 
-11. Use File Uploader, allowing other devices to upload files to the host computer!
+10. Use File Uploader, allowing other devices to upload files to the host computer!
 
-12. Stop the application:
+11. Stop the application:
    - Press `Ctrl+C` or `Cmd+C` in the host terminal to stop the server.
+   - Or simply close terminal.
 
 ## Usage
 
