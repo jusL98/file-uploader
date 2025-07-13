@@ -257,18 +257,28 @@ HTML_FORM = '''
 
         function addFiles(fileListObj) {
             const newFiles = Array.from(fileListObj);
-            let rejected = [];
+            let tooLarge = [];
+            let disallowed = [];
+            const allowedExtensions = '{{ allowed_exts }}'.split(', ').map(ext => ext.trim().toLowerCase());
             for (const file of newFiles) {
+                const fileExtension = file.name.split('.').pop().toLowerCase();
+                if (!allowedExtensions.includes(fileExtension)) {
+                    disallowed.push(file.name);
+                    continue;
+                }
                 if (file.size > MAX_FILE_SIZE) {
-                    rejected.push(file.name);
+                    tooLarge.push(file.name);
                     continue;
                 }
                 if (!selectedFiles.some(f => f.name === file.name && f.size === file.size)) {
                     selectedFiles.push(file);
                 }
             }
-            if (rejected.length > 0) {
-                alert('File(s) too large: ' + rejected.join(', '));
+            if (disallowed.length > 0) {
+                alert('File type not allowed: ' + disallowed.join(', '));
+            }
+            if (tooLarge.length > 0) {
+                alert('File(s) too large: ' + tooLarge.join(', '));
             }
             updateInputFiles();
             renderFileList();
