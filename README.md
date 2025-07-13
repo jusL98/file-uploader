@@ -5,7 +5,7 @@
 This app is a web-based tool built with Flask that provides a clean, drag-and-drop interface for uploading multiple files to a server over a local network with configurable file type restrictions and size limits.
 
 <p align="left">
-   <img width="600" alt="image" src=""/>
+   <img width="600" alt="image" src="https://github.com/user-attachments/assets/ad18c1bd-fc30-4360-94b4-fafac27c3382"/>
 </p>
 
 ## Description
