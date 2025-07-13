@@ -129,17 +129,17 @@ To install the File Uploader, follow these steps:
    - Open your web browser and navigate to: `http://localhost:5000`
    - For network access from other devices: `http://YOUR_IP_ADDRESS:5000`
 
-11. Use the File Uploader!
+11. Use File Uploader, allowing other devices to upload files to the host computer!
 
 12. Stop the application:
-   - Press `Ctrl+C` or `Cmd+C` in the terminal to stop the server.
+   - Press `Ctrl+C` or `Cmd+C` in the host terminal to stop the server.
 
 ## Usage
 
-1. **Access the web interface** at `http://localhost:5000` or `http://YOUR_IP_ADDRESS:5000`
+1. **Access the web interface** at `http://localhost:5000` or `http://YOUR_IP_ADDRESS:5000` from other devices
 2. **Upload files** using drag-and-drop or click to select
 3. **Monitor uploads** through the web interface progress indicators
-4. **Find uploaded files** in your configured upload directory
+4. **Find uploaded files** in the host computer's configured upload directory
 5. **Check file validation** (only allowed file types and sizes will be accepted)
 
 ## Contributing
