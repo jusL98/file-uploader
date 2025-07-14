@@ -100,8 +100,11 @@ To install File Uploader, follow these steps:
    | MAX_FILE_SIZE      | Max file size in bytes                 | `MAX_FILE_SIZE=10485760`     |
 
    Don't add spaces around the = sign in the variables.
+   
    Don't wrap values in quotes unless they contain spaces.
+   
    ALLOWED_EXTENSIONS are comma-separated, no spaces.
+   
    Common MAX_FILE_SIZEs: 10MB: 10485760, 25MB: 26214400, 50MB: 52428800, 100MB: 104857600
 
    ex. `.env`
