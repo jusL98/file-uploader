@@ -115,7 +115,7 @@ To install File Uploader, follow these steps:
 
 ### Run
 
-8. Start the Flask application:
+8. Run File Uploader (start Flask application):
    ```bash
    python main.py
    ```
