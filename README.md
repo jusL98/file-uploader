@@ -35,7 +35,7 @@ The web application allows users to either click to select files or drag and dro
 
 ### Installation
 
-To install the File Uploader, follow these steps:
+To install File Uploader, follow these steps:
 
 1. Clone the repository:
 
