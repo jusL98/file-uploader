@@ -149,12 +149,12 @@ To install the File Uploader, follow these steps:
 ```
 ├── file-uploader/
 │   ├── static/
-│   │   └── upload.png                 // upload icon image file
+│   │   └── upload.png                 # upload icon image file
 │   │
-│   ├── .env                           // contains environment variables for configuration
-│   ├── .env.example                   // sample .env file
-│   ├── requirements.txt               // list of required dependencies for easy installation
-│   └── main.py                        // contains methods that controls the Connect 4 board
+│   ├── .env                           # contains environment variables for configuration
+│   ├── .env.example                   # sample .env file
+│   ├── requirements.txt               # list of required dependencies for easy installation
+│   └── main.py                        # contains methods that controls the Connect 4 board
 ```
 
 ## Acknowledgements
