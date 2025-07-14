@@ -154,7 +154,7 @@ To install File Uploader, follow these steps:
 │   ├── .env                           # contains environment variables for configuration
 │   ├── .env.example                   # sample .env file
 │   ├── requirements.txt               # list of required dependencies for easy installation
-│   └── main.py                        # contains methods that controls the Connect 4 board
+│   └── main.py                        # contains the main Flask application code
 ```
 
 ## Acknowledgements
